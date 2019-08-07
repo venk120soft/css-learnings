@@ -1,0 +1,30 @@
+default font size of browser is 16 pixel i.e root is 16 pixel i.e html document font size is 16 pixel
+rem is relative to the root element where as the em is relative to the parent element
+
+html{
+font-size:16px
+}
+rem value will gets changed based on the root of the document.
+
+<div class="em">2m
+<div class="em">4m
+<div class="em">6m
+<div class="em">8m
+</div>
+</div>
+</div>
+</div>
+<div class="rem">2m
+<div class="rem">2m
+<div class="rem">2m
+<div class="rem">2m
+</div>
+</div>
+</div>
+</div>
+
+Why to use rem over pixels?
+
+If we mention in pixels it is fixed to that perticular size only even though you change the font sizes from small to very large
+but as rem is relative to the root element (which is html doc) this will get adjusted based on the font sizes we looking for 
+https://www.youtube.com/watch?v=H4UtKu11yXg
